@@ -1,0 +1,51 @@
+header {
+  /* background-color: #fafafa; */
+  /* background-color: #b4bd3d; */
+
+  width: 100%;
+  height: 60px;
+}
+
+header .navbar > i {
+  font-size: 30px;
+
+}
+
+header .navbar > .logo {
+  width: 133px;
+  height: 36px;
+  left: 60px;
+  position: absolute;
+}
+
+header .navbar .botones {
+  display: inline-flex;
+}
+.botones > .users_ {
+  width: auto;
+  height: 50px;
+  margin-left: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.botones > .carrito_ {
+  width: 110px;
+  height: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+
+
+
+}
+
+.botones > .carrito_ > i {
+  color: red;
+  font-size: 30px;
+}
+.botones > .users_ > i {
+    color: red;
+    font-size: 30px;
+  }
+  
